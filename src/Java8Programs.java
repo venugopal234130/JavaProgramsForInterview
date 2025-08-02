@@ -17,5 +17,6 @@ public class Java8Programs {
         System.out.println(toMap);
         //Filter the even numbers
         Arrays.stream(arr).boxed().filter(n->n%2==0).forEach(System.out::println);
+        //
     }
 }
